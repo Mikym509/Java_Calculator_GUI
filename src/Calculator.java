@@ -17,7 +17,7 @@ public class Calculator {
     public Calculator(){
         frame.setTitle("Calculator");
         frame.setSize(350,300);
-        rootpanel.setBackground(Color.BLACK);
+        rootpanel.setBackground(Color.BLACK); //commento
 
         somma.addActionListener(new ActionListener() {      //pulsante somma
             @Override
